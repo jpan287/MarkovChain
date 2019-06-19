@@ -7,25 +7,46 @@ namespace MarkovChain
     {
         static void Main(string[] args)
         {
-            string[] inputs = Console.ReadLine().Split(' ');
+            string[] rawInput = Console.ReadLine().Split(" ");
+            List<string> inputs = new List<string>();
+            inputs.Add("");
+            for (int i = 0; i < rawInput.Length; i++)
+            {
+                inputs.Add(rawInput[i]);
+            }
+            inputs.Add("   end\\");
+
             List<string> words = new List<string>();
             List<int> counts = new List<int>();
             double[][] probabilities;
-            for (int i = 0; i < inputs.Length; i++)
+            
+            for (int i = 0; i < inputs.Count; i++)
             {
                 if (!words.Contains(inputs[i]))
                 {
                     words.Add(inputs[i]);
                     counts.Add(0);
                 }
-                counts[i]++;
+                else
+                {
+                    for (int j = 0; j < words.Count; j++)
+                    {
+                        if (words[j] == inputs[i])
+                        {
+                            counts[j]++;
+                        }
+                    }
+                }
             }
+            words.Add("");
+
             probabilities = new double[words.Count][];
             for (int i = 0; i < words.Count; i++)
             {
                 probabilities[i] = new double[words.Count];
             }
-            for (int i = 0; i < inputs.Length - 1; i++)
+
+            for (int i = 0; i < inputs.Count - 1; i++)
             {
                 for (int j = 0; j < words.Count; j++)
                 {
@@ -35,7 +56,7 @@ namespace MarkovChain
                         {
                             if (inputs[i + 1] == words[k])
                             {
-                                probabilities[0][k]++;
+                                probabilities[j][k]++;
                                 break;
                             }
                         }
@@ -53,9 +74,9 @@ namespace MarkovChain
 
             int currWord = 0;
             Random random = new Random();
-            while (true)
+            while (words[currWord] != "   end\\")
             {
-                Console.Write(words[currWord]);
+                Console.Write(words[currWord] + " ");
                 for (int i = 0; i < words.Count; i++)
                 {
                     if (random.NextDouble() < probabilities[currWord][i])
@@ -64,6 +85,7 @@ namespace MarkovChain
                     }
                 }
             }
+            Console.ReadLine();
         }
     }
 }

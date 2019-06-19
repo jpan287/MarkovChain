@@ -9,3 +9,14 @@
 \\GMRDC1\Folder Redirection\Johnny.Pan\Documents\Visual Studio 2019\Projects\MarkovChain\MarkovChain\obj\Debug\netcoreapp2.2\MarkovChain.AssemblyInfo.cs
 \\GMRDC1\Folder Redirection\Johnny.Pan\Documents\Visual Studio 2019\Projects\MarkovChain\MarkovChain\obj\Debug\netcoreapp2.2\MarkovChain.dll
 \\GMRDC1\Folder Redirection\Johnny.Pan\Documents\Visual Studio 2019\Projects\MarkovChain\MarkovChain\obj\Debug\netcoreapp2.2\MarkovChain.pdb
+C:\Users\Lumastars3\Documents\Visual Studio 2019\Projects\JPanMarkovChain\MarkovChain\bin\Debug\netcoreapp2.2\MarkovChain.deps.json
+C:\Users\Lumastars3\Documents\Visual Studio 2019\Projects\JPanMarkovChain\MarkovChain\bin\Debug\netcoreapp2.2\MarkovChain.runtimeconfig.json
+C:\Users\Lumastars3\Documents\Visual Studio 2019\Projects\JPanMarkovChain\MarkovChain\bin\Debug\netcoreapp2.2\MarkovChain.runtimeconfig.dev.json
+C:\Users\Lumastars3\Documents\Visual Studio 2019\Projects\JPanMarkovChain\MarkovChain\bin\Debug\netcoreapp2.2\MarkovChain.dll
+C:\Users\Lumastars3\Documents\Visual Studio 2019\Projects\JPanMarkovChain\MarkovChain\bin\Debug\netcoreapp2.2\MarkovChain.pdb
+C:\Users\Lumastars3\Documents\Visual Studio 2019\Projects\JPanMarkovChain\MarkovChain\obj\Debug\netcoreapp2.2\MarkovChain.csprojAssemblyReference.cache
+C:\Users\Lumastars3\Documents\Visual Studio 2019\Projects\JPanMarkovChain\MarkovChain\obj\Debug\netcoreapp2.2\MarkovChain.csproj.CoreCompileInputs.cache
+C:\Users\Lumastars3\Documents\Visual Studio 2019\Projects\JPanMarkovChain\MarkovChain\obj\Debug\netcoreapp2.2\MarkovChain.AssemblyInfoInputs.cache
+C:\Users\Lumastars3\Documents\Visual Studio 2019\Projects\JPanMarkovChain\MarkovChain\obj\Debug\netcoreapp2.2\MarkovChain.AssemblyInfo.cs
+C:\Users\Lumastars3\Documents\Visual Studio 2019\Projects\JPanMarkovChain\MarkovChain\obj\Debug\netcoreapp2.2\MarkovChain.dll
+C:\Users\Lumastars3\Documents\Visual Studio 2019\Projects\JPanMarkovChain\MarkovChain\obj\Debug\netcoreapp2.2\MarkovChain.pdb
