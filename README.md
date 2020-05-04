@@ -1,0 +1,1 @@
+Markov Chain designed to be able to read text and be able to generate similarly phrased text by calculating the probability of different words occuring one after the other. Can be used to make funny essays by giving it an essay to read.
